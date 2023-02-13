@@ -1,0 +1,115 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Sider Projet</title>
+  <link
+  rel="stylesheet"
+  href="https://cdn.jsdelivr.net/npm/swiper@8/swiper-bundle.min.css"
+/>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <div class="testimonials">
+    <div class="swiper mySwiper">
+      <div class="swiper-wrapper">
+        <div class="swiper-slide">
+          <div class="card">
+            <div class="layer"></div>
+            <div class="content">
+              <p>Une appli d'autosurveillance glycémique, pour les jeunes qui quittent le nid familial.</p>
+              <div class="imgbx">
+                  <img src="fashion-gb89f2d999_1920.jpg" alt="">
+              </div>
+              <div class="details">
+                <h2>pseudo<br><span>Passeword</span></h2>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div class="swiper-slide">
+          <div class="card">
+            <div class="layer"></div>
+            <div class="content">
+              <p>une banque de photos riche de plusieurs centaines de plats les plus communs qui permet d'évaluer la quantité de glucide.</p>
+              <div class="imgbx">
+                  <img src="istockphoto-1063964054-170667a.jpg" alt="">
+              </div>
+              <div class="details">
+                <h2>Boeuf bourguignon<br><span><strong>65</strong>g de glucides</span></h2>
+              </div>
+            </div>
+          </div>
+        </div> 
+        <div class="swiper-slide">
+          <div class="card">
+            <div class="layer"></div>
+            <div class="content">
+              <p>scanner les aliments pour connaitre immédiatement leur teneur en glucides .</p>
+              <div class="imgbx">
+                  <img src="qr-code-gb296a7017_1920.jpg" alt="">
+              </div>
+              <div class="details">
+                <h2>Scanner Smartphone<br><span>Codes-barres</span></h2>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div class="swiper-slide">
+          <div class="card">
+            <div class="layer"></div>
+            <div class="content">
+              <p>préparer son repas, entrer les aliments choisies, et l'appli permet de calculer l'apport e glucide en fonctionde la quantité choisi du repas .</p>
+              <div class="imgbx">
+                  <img src="istockphoto-516911311-170667a.jpg" alt="">
+              </div>
+              <div class="details">
+                <h2>Créer mo repas<br><span>Bases de données</span></h2>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div class="swiper-slide">
+          <div class="card">
+            <div class="layer"></div>
+            <div class="content">
+              <p>Une banque de données qui répertorie des millier de produits avec une étiquette vert, orange et rouge pour faire le bon choix.</p>
+              <div class="imgbx">
+                  <img src="food-4081261__340.png" alt="">
+              </div>
+              <div class="details">
+                <h2>Produit du monde<br><span>Baes de données</span></h2>
+              </div>
+            </div>
+          </div>
+        </div> 
+       
+      </div>
+      
+    </div>
+  </div>
+  <script src="https://cdn.jsdelivr.net/npm/swiper@8/swiper-bundle.min.js">
+  </script>
+  <script>
+     var swiper = new Swiper(".mySwiper", {
+      effect: "coverflow",
+      grabCursor: true,
+      centeredSlides: true,
+      slidesPerView: "auto",
+      coverflowEffect: {
+        rotate: 0,
+        stretch: 0,
+        depth: 0,
+        modifier: 1,
+        slideShadows: true,
+      },
+      pagination: {
+        el: ".swiper-pagination",
+      },
+      loop: true,
+    });
+  </script>
+</body>
+</html>
